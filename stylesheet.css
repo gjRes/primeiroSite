@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.primeirotexto{
+    position:absolute;
+    padding: 100px;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    align-items: center;
+}
+
+.primeirotexto header{
+    color: aqua;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.8;
+    object-fit: cover;
+}
